@@ -1,0 +1,48 @@
+*{
+    align-items: center;
+}
+.card-deck{
+display: inline-flex;
+height: auto;
+width: auto;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: auto;
+
+
+
+
+}
+
+.card{
+    width: 18rem;
+    border-top: 2px solid gainsboro; 
+    border-right: 2px solid gainsboro;
+    border-bottom: 2px solid gainsboro; 
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    
+    
+    
+}
+.button{
+    display: inline-flex;
+    border-top: 2px solid gray; 
+      
+}
+.card-footer{
+    background-color: antiquewhite;
+    display: flex;
+    align-content: center;
+    margin-top: auto;
+    
+}
+.heart,.edit,.delete{
+    margin-right:auto;
+    margin-left :auto;
+    align-content: center;
+}
+
+
